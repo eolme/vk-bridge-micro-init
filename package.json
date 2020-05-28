@@ -1,6 +1,6 @@
 {
   "name": "@eolme/vk-bridge-micro-init",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Smallest VK Bridge init alternative",
   "keywords": [
     "vk",
