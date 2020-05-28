@@ -1,0 +1,38 @@
+{
+  "name": "@eolme/vk-bridge-micro-init",
+  "version": "1.0.0",
+  "description": "Smallest VK Bridge init alternative",
+  "keywords": [
+    "vk",
+    "vkontakte",
+    "vkcom",
+    "vkapps",
+    "vk-mini-apps",
+    "vk-apps",
+    "vk-bridge",
+    "vk-connect"
+  ],
+  "homepage": "https://vk.com/app7488350",
+  "bugs": {
+    "url": "https://github.com/eolme/vk-bridge-micro-init/issues",
+    "email": "im@petrov.engineer"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Anton Petrov",
+    "email": "im@petrov.engineer",
+    "url": "https://petrov.engineer"
+  },
+  "main": "index.js",
+  "browser": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eolme/vk-bridge-micro-init.git"
+  },
+  "scripts": {
+    "deploy": "vk-miniapps-deploy"
+  },
+  "devDependencies": {
+    "@vkontakte/vk-miniapps-deploy": "^0.0.17"
+  }
+}
