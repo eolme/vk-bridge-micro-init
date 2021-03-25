@@ -1,6 +1,6 @@
 {
   "name": "@eolme/vk-bridge-micro-init",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Smallest VK Bridge init alternative",
   "keywords": [
     "vk",
@@ -24,7 +24,9 @@
     "url": "https://petrov.engineer"
   },
   "main": "index.js",
+  "module": "index.js",
   "browser": "index.js",
+  "jsnext:main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/eolme/vk-bridge-micro-init.git"
@@ -33,6 +35,6 @@
     "deploy": "vk-miniapps-deploy"
   },
   "devDependencies": {
-    "@vkontakte/vk-miniapps-deploy": "^0.0.17"
+    "@vkontakte/vk-miniapps-deploy": "^0.0.25"
   }
 }
